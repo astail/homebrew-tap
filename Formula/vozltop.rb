@@ -24,7 +24,7 @@ class Vozltop < Formula
   end
 
   def install
-    bin.install Dir["vozltop-*/vozltop"].first => "vozltop"
+    bin.install "vozltop"
   end
 
   test do
