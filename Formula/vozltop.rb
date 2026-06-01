@@ -1,25 +1,25 @@
 class Vozltop < Formula
   desc "htop-like real-time TUI for nginx-module-vts"
   homepage "https://github.com/astail/vozltop"
-  version "0.1.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/astail/vozltop/releases/download/v0.1.0/vozltop-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "b6a63f97573d1014713ac830d0a2aff91cb790b8842ad581a8743827fc0b7079"
+      url "https://github.com/astail/vozltop/releases/download/v0.2.1/vozltop-0.2.1-aarch64-apple-darwin.tar.gz"
+      sha256 "f14d21aabda64fee1d4eb6ebbdb58743804d8e760b5e51c73991d5b82f935ae5"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/astail/vozltop/releases/download/v0.1.0/vozltop-0.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "1a474fdd990f917e8408796e94c787b6e717928a221de66522729c38ab6892f3"
+      url "https://github.com/astail/vozltop/releases/download/v0.2.1/vozltop-0.2.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "85ae62fc5f710c8dd0accae0cd33a575a89e436c22e41c39696cb8dac76e1006"
     end
 
     on_arm do
-      url "https://github.com/astail/vozltop/releases/download/v0.1.0/vozltop-0.1.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "ab6a44c8d6bc5a73abf5a3c57c349c259788b630dad303a8107dc0ab52f1579b"
+      url "https://github.com/astail/vozltop/releases/download/v0.2.1/vozltop-0.2.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "9e2076eae82b163fec6524684e68c1528b5473d05c02a2fda8ebbe3be9d8bf57"
     end
   end
 
