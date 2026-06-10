@@ -1,4 +1,4 @@
-class Flappy < Formula
+class FlappyCli < Formula
   desc "Flappy Bird-style dot game for the terminal (also runs in the browser)"
   homepage "https://github.com/astail/flappy-cli"
   version "0.2.0"
