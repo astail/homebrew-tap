@@ -24,11 +24,11 @@ class FlappyCli < Formula
   end
 
   def install
-    bin.install "flappy"
+    bin.install "flappy" => "flappy-cli"
   end
 
   test do
     # TUI は TTY を要するため、TTY 不要の headless モードでスコア（数値）出力を検証する。
-    assert_match(/\A\d+\Z/, shell_output("#{bin}/flappy --headless --frames 1").strip)
+    assert_match(/\A\d+\Z/, shell_output("#{bin}/flappy-cli --headless --frames 1").strip)
   end
 end
