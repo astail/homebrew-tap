@@ -1,25 +1,25 @@
 class FlappyCli < Formula
   desc "Flappy Bird-style dot game for the terminal (also runs in the browser)"
   homepage "https://github.com/astail/flappy-cli"
-  version "0.6.0"
+  version "0.7.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/astail/flappy-cli/releases/download/v0.6.0/flappy-0.6.0-aarch64-apple-darwin.tar.gz"
-      sha256 "d155812a0165abf0f2cc5ce626ca32c6a7c80682b5da25b2332742d9ff99c208"
+      url "https://github.com/astail/flappy-cli/releases/download/v0.7.0/flappy-0.7.0-aarch64-apple-darwin.tar.gz"
+      sha256 "0b95e64fbfa3ab828b35402bfa6fabe181c5526c64985e2a3f01a1f30e773af4"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/astail/flappy-cli/releases/download/v0.6.0/flappy-0.6.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "25a74e97dce65f056a3014f8911298cce1965451c4f6ed35f49492c5563b9c0c"
+      url "https://github.com/astail/flappy-cli/releases/download/v0.7.0/flappy-0.7.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "d2087ddb671e82b043d388ccf4029dc0b4896d4401976d58340c99edf3c9e7bf"
     end
 
     on_arm do
-      url "https://github.com/astail/flappy-cli/releases/download/v0.6.0/flappy-0.6.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "e83c0dd2fd78664072b480d6ce6dd66d3ccc3f10c78c1747bfd8debb1db4d91f"
+      url "https://github.com/astail/flappy-cli/releases/download/v0.7.0/flappy-0.7.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "41ea6c513f6302bfd9a55b83637e38e73bec19977c349051d08d4e7742a61373"
     end
   end
 
